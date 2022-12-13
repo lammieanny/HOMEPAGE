@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Silkscreen";
+    src: url("Silkscreen-Regular.ttf");
+}
+  
+body{
+    margin-block: 12%;
+    font-size: 1.5rem;
+    color: #353535;
+    background-color: #40bcd8;
+    text-align: center;
+    font-family: "Silkscreen",'Courier New', Courier, monospace;
+}
+h1{
+    font-size: 4rem;
+    color: #f7b32b;
+}
+
+a{
+    color: #ffb703;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#intro{
+    border: solid 3px #ffaa00;
+    border-radius: 3rem;
+    margin:3rem auto;
+    display: inline-block;
+    padding-inline: 2rem;
+}
+#projects {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+
+}
+
+.section{
+    display: inline-block;
+    margin: 3rem;
+    text-align: center;
+    color: #c45428;
+}
